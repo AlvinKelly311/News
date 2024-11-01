@@ -1,0 +1,455 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: black;
+}
+
+.container{
+    width: 65vw;
+    height: 100%;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    margin-left: 10rem;
+    margin-top: 5rem;
+    padding: 40px;
+    border: solid black 4px;
+    border-radius: 5px;
+    
+}
+
+.navbar{
+    display: flex;
+    margin: 1rem 3rem;
+    padding: 3px;
+    flex-direction: row;
+    justify-content: space-between;   
+}
+
+nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+}
+
+ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    list-style-type: none;
+    position: relative;
+    left: 25rem;
+    align-items: center;
+    text-transform: capitalize;
+    
+}
+
+ul a{
+  
+    text-decoration: none;
+    color: rgb(221, 206, 206);
+    padding: 12.5px;
+   
+    
+}
+
+ul a:hover{
+    color: rgb(13, 0, 31);
+}
+
+.container-child{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 1rem 4rem;
+}
+
+
+.image img{
+    width: 32rem;
+    
+}
+
+.bright{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 1.3rem;
+}
+
+.web h1{
+    font-weight:bolder;
+    text-transform: capitalize;
+    color:rgb(13, 0, 31);
+    font-size: 2.8rem;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+
+
+.container-pluse{
+    width: 18rem; 
+    height: 24rem;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(13, 0, 31);
+    padding: 2rem;
+}
+
+.read{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  
+}
+
+.more p{
+    font-size: small;
+    color: rgb(190, 188, 188);
+}
+
+.read button{
+    width: 9rem;
+    padding: 10px;
+    border:transparent;
+    background-color: rgb(247, 63, 63);
+}
+
+.read button a{
+    text-decoration: none;
+    color: white;
+    font-size: smaller;
+    letter-spacing: 2px;
+}
+
+.read button:hover{
+    background-color: rgb(190, 188, 188);
+    
+}
+
+.container-pluse h2{
+    text-transform: capitalize;
+    color: rgb(255, 230, 0);
+}
+
+.hydrongen{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+
+.hydrongen h4{
+    color: white;
+    font-weight: bolder;
+    text-transform: capitalize;
+}
+
+.hydrongen p{
+    color: rgb(190, 188, 188);
+    font-size: 13px;
+    font-weight: lighter;
+    line-height: 1.4rem;
+}
+
+.tech{
+    margin: 1rem 4rem;
+    display: flex;
+    flex-direction: row;
+   
+}
+
+.pc{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+   
+}
+
+.pc .image img{
+    width: 100px;
+    
+}
+
+.pc .retro{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 1rem;
+    
+}
+
+.pc .retro h1{
+    color:rgb(190, 188, 188) ;
+    font-size: 2rem;
+}
+
+.pc .retro h2{
+    text-transform: capitalize;
+    font-size: 1rem;
+    font-weight: bolder;
+    padding: 2px;
+}
+
+.pc .retro p{
+    color:rgb(190, 188, 188) ;
+    font-size: 0.9rem;
+}
+
+@media( max-width:1440px){
+    body{
+        width: 43rem;
+        padding: 0px;
+    } 
+
+    .container{
+        width: 67rem;
+        position: relative;
+        right:2rem;
+    }
+}
+
+
+@media( max-width:1024px){
+    body{
+        width: 48rem;
+        padding: 0px;
+        
+    }
+
+    .container{
+        width: 55.5rem;
+        position: relative;
+        right:8rem;
+    }
+
+    ul{
+        position: relative;
+        left: 20.6rem;
+    }
+
+    .container-child .image img{
+        width: 21.9rem;
+        height: 15rem;
+    }
+
+    .web h1{
+        font-size:1.7rem;
+        font-weight: bolder;
+    }
+
+    .read button{
+        position: relative;
+        top: 1.7rem;
+    }
+
+    
+    .more p{
+        font-size: 10px;
+        color: rgb(190, 188, 188);
+    }
+
+
+
+}
+
+
+
+@media( max-width:800px){
+
+    body{
+        width: 30rem;
+        padding: 0px;
+    }
+
+    .container{
+        padding: 2px;
+        width: 42.5rem;
+        position: relative;
+        right: 10rem;
+        bottom: 2rem;
+        
+    }
+
+    ul{
+        position: relative;
+        left: 7.9rem;
+    }
+
+    .container-child .image img{
+        width: 19rem;
+        height: 15rem;
+        
+    }
+
+    .container-pluse{
+        width: 17rem;
+        height: 28.8rem;
+    }
+
+    .bright{
+        display: flex;
+        flex-direction: row;
+     
+        justify-content: center;
+    }
+
+    
+    .web h1{
+        font-size:1.1rem;
+        font-weight: bolder;
+    }
+
+    .read{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    .more{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .more p {
+        width: 17rem;
+        font-size: 9.8px;
+        position: relative;
+        left: 4.1rem;
+        top: 0.5rem;
+    }
+
+    .read button{
+        position: relative;
+        top: 4.7rem;
+        left: 4.6rem;
+    }
+
+    .pc .image img{
+        width: 5rem;
+    }
+
+    .retro{
+        display: flex;
+    }
+
+    .pc .retro h1{
+        font-size: 1.2rem;
+    }
+
+    .pc .retro h2{
+        font-size: 0.4rem;
+    }
+
+    .pc .retro p{
+        font-size: 8px;
+    }
+}
+
+@media( max-width:425px){
+    body{
+        width: 10rem;
+    }
+    .container{
+        width: 26.5rem;
+        display: flex;
+        flex-direction: column;
+        padding: 2px;
+        height: 100em;
+   
+       
+    }
+
+    ul{
+        display: none;
+    }
+
+    .container-child{
+        display: flex;
+        flex-direction: column;
+        gap: 22rem;
+    }
+
+    .bright{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    .web h1{
+        font-size:2.7rem;
+        font-weight: bolder;
+    }
+
+    .more{
+        display: flex;
+        flex-direction: column;
+        justify-content: left;
+    }
+
+    .more p {
+        width: 40rem;
+        font-size: 13.8px;
+        position: relative;
+        left: 11.2rem;
+       
+    }
+
+    .read button{
+        position: absolute;
+        top: 38.7rem;
+       
+    }
+
+    .container-pluse{
+        position: relative;
+        top: 8rem;
+    }
+
+    .tech{
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        top: 8rem;
+       
+    }
+
+    .pc{
+        display: flex;
+        flex-direction: row;
+        
+    }
+
+    .pc .retro h1{
+        font-size: 2.4rem;
+    }
+
+    .pc .retro h2{
+        font-size: 1rem;
+    }
+
+    .pc .retro p{
+        font-size: 12px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
